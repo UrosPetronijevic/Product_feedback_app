@@ -1,0 +1,13 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  padding: 1rem;
+  background-color: $color-secondary;
+  border-radius: 1rem;
+  align-items: center;
+
+  &__upvotes {
+    display: flex;
+  }
+}

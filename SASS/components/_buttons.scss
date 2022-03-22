@@ -1,13 +1,14 @@
 .btn {
+  background-color: pink;
   color: #fff;
   border: none;
-  border-radius: 100px;
+  border-radius: 0.7rem;
   font-family: $font-display;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  padding: 1.8rem 3rem;
+  font-size: 1, 5rem;
+  padding: 0.75rem 1.5rem;
   cursor: pointer;
   transition: all 0.2s;
+  justify-self: end;
 
   &:hover {
     background-color: purple;
