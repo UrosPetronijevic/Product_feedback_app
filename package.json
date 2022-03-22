@@ -1,0 +1,22 @@
+{
+  "name": "product_feedback_app",
+  "version": "1.0.0",
+  "description": "Feedback app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrosPetronijevic/Product_feedback_app.git"
+  },
+  "author": "Uros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UrosPetronijevic/Product_feedback_app/issues"
+  },
+  "homepage": "https://github.com/UrosPetronijevic/Product_feedback_app#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
