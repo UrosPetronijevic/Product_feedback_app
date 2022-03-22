@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: sans-serif;
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6; }
+
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 4rem; }
+
+.mb-lg {
+  margin-bottom: 6rem; }
+
+.mb-hg {
+  margin-bottom: 8rem; }
+
+.container {
+  background-color: aquamarine;
+  height: 50rem;
+  width: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
