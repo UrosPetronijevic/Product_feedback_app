@@ -1,13 +1,52 @@
 .header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   padding: 1rem;
   background-color: $color-secondary;
   border-radius: 1rem;
   align-items: center;
+  gap: 1rem;
 
-  &__upvotes {
+  &__feedback {
     display: flex;
+
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__icon-box {
+    transform: translateY(0.2rem);
+  }
+
+  &__icon-1 {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    margin-left: 3rem;
+    transform: translateY(0.2rem);
+  }
+
+  &__icon-2 {
+    height: 1.3rem;
+    width: 1.3rem;
+    transform: translateY(0.2rem);
+  }
+
+  &__btn {
+    background-color: purple;
+    color: #fff;
+
+    font-family: $font-display;
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+
+    &:hover {
+      background-color: pink;
+    }
   }
 }
