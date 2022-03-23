@@ -12,8 +12,9 @@ html {
 }
 
 body {
+  background-color: $color-grey-light-3;
   font-family: sans-serif;
-  color: #fff;
+  color: $color-white;
   font-weight: 300;
   line-height: 1.6;
 }

@@ -1,5 +1,38 @@
 .navigation {
-  padding: 2rem;
+  grid-row: 1 / span 6;
 
-  grid-row: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  //background-color: orangered;
+
+  &__card-1 {
+    background-image: linear-gradient(
+      to right bottom,
+      #7efff5,
+      #7158e2,
+      #cd84f1
+    );
+    border-radius: 1rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    font-size: 1.3rem;
+
+    & p {
+      color: rgba(#fff, 0.5);
+      font-size: 1rem;
+    }
+  }
+
+  &__card-2 {
+  }
+
+  &__tag {
+  }
 }
