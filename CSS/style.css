@@ -67,6 +67,9 @@ body {
   border-radius: 1rem;
   padding: 0 2.5rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
+  @media only screen and (max-width: 900px) {
+    .post {
+      width: 95%; } }
   .post__main {
     display: flex;
     align-items: flex-start;
@@ -137,6 +140,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem; }
+  @media only screen and (max-width: 900px) {
+    .navigation {
+      grid-row: 1 / 2;
+      flex-direction: row;
+      gap: 2rem; } }
   .navigation__card-1 {
     background-image: linear-gradient(to right bottom, #7efff5, #7158e2, #cd84f1);
     border-radius: 1rem;
@@ -149,14 +157,35 @@ body {
     .navigation__card-1 p {
       color: rgba(255, 255, 255, 0.5);
       font-size: 1rem; }
+    @media only screen and (max-width: 900px) {
+      .navigation__card-1 {
+        padding: 0 3rem 1rem 3rem;
+        width: 25%; } }
   .navigation__card-2 {
     gap: 1rem;
-    background-color: #fff; }
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; }
+    @media only screen and (max-width: 900px) {
+      .navigation__card-2 {
+        flex-direction: column;
+        width: 40%;
+        font-size: 1.5rem;
+        gap: 1rem;
+        align-items: center; } }
   .navigation__main-tags {
     display: flex;
     gap: 1rem; }
+    @media only screen and (max-width: 900px) {
+      .navigation__main-tags {
+        flex-direction: row;
+        gap: 1rem; } }
   .navigation__card-3 {
     background-color: #fff; }
+    @media only screen and (max-width: 900px) {
+      .navigation__card-3 {
+        padding: 1rem;
+        width: 25%; } }
   .navigation__view-box {
     color: #101d2c;
     font-size: 1rem;
@@ -189,6 +218,13 @@ body {
   grid-template-rows: 5rem repeat(6, 1fr);
   gap: 1.2rem;
   padding: 3.5rem 15rem; }
+  @media only screen and (max-width: 900px) {
+    .container {
+      width: 100vw;
+      margin: 0;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column; } }
 
 .header {
   display: flex;
@@ -200,12 +236,20 @@ body {
   align-items: center;
   gap: 1rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
+  @media only screen and (max-width: 900px) {
+    .header {
+      flex-direction: row;
+      grid-row: 2 / 3;
+      width: 95%; } }
   .header__feedback {
     display: flex;
     align-items: center;
     gap: 0.5rem; }
   .header__icon-box {
     transform: translateY(0.2rem); }
+  @media only screen and (max-width: 1500px) {
+    .header__h3 {
+      font-size: 1.1rem; } }
   .header__icon-1 {
     height: 2rem;
     width: 2rem; }
@@ -213,6 +257,9 @@ body {
     font-size: 1.1rem;
     margin-left: 3rem;
     transform: translateY(0.2rem); }
+    @media only screen and (max-width: 1500px) {
+      .header__text {
+        font-size: 0.9rem; } }
   .header__icon-2 {
     height: 1.3rem;
     width: 1.3rem;

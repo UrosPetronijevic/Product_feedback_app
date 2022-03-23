@@ -8,6 +8,10 @@
   padding: 0 2.5rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
 
+  @media only screen and (max-width: 900px) {
+    width: 95%;
+  }
+
   &__main {
     display: flex;
     align-items: flex-start;

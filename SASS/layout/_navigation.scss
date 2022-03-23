@@ -5,6 +5,12 @@
   flex-direction: column;
   gap: 3rem;
 
+  @media only screen and (max-width: 900px) {
+    grid-row: 1 / 2;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
   //////////////////////////////////////
   ///////////////CARD 1/////////////////
 
@@ -29,6 +35,11 @@
       color: rgba(#fff, 0.5);
       font-size: 1rem;
     }
+
+    @media only screen and (max-width: 900px) {
+      padding: 0 3rem 1rem 3rem;
+      width: 25%;
+    }
   }
 
   //////////////////////////////////////
@@ -37,17 +48,36 @@
   &__card-2 {
     gap: 1rem;
     background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 900px) {
+      flex-direction: column;
+      width: 40%;
+      font-size: 1.5rem;
+      gap: 1rem;
+      align-items: center;
+    }
   }
 
   &__main-tags {
     display: flex;
     gap: 1rem;
+
+    @media only screen and (max-width: 900px) {
+      flex-direction: row;
+      gap: 1rem;
+    }
   }
 
   //////////////////////////////////////
   ///////////////CARD 3/////////////////
   &__card-3 {
     background-color: $color-white;
+    @media only screen and (max-width: 900px) {
+      padding: 1rem;
+      width: 25%;
+    }
   }
 
   &__view-box {
