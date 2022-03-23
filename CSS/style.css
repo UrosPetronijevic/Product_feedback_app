@@ -42,12 +42,20 @@ body {
   flex-direction: column;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-  padding: 1rem;
-  font-size: 1.3rem; }
+  padding: 2rem;
+  font-size: 1.3rem;
+  width: 100%; }
 
 .tag {
   padding: 0.5rem 1rem;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: rgba(16, 29, 44, 0.05);
+  border-radius: 0.7rem;
+  color: #101d2c; }
+  .tag:hover {
+    background-color: #101d2c;
+    color: #fff; }
 
 .navigation {
   grid-row: 1 / span 6;
@@ -66,6 +74,21 @@ body {
     .navigation__card-1 p {
       color: rgba(255, 255, 255, 0.5);
       font-size: 1rem; }
+  .navigation__card-2 {
+    gap: 1rem;
+    background-color: #fff; }
+  .navigation__main-tags {
+    display: flex;
+    gap: 1rem; }
+  .navigation__tag-4 {
+    display: inline;
+    grid-column: 1 / span 2;
+    grid-row: 2 / 2; }
+  .navigation__tag-5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; }
+  .navigation__tag-6 {
+    align-self: flex-start; }
 
 .container {
   width: 74vw;
