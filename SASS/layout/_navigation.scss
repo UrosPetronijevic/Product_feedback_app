@@ -44,21 +44,6 @@
     gap: 1rem;
   }
 
-  &__tag-4 {
-    display: inline;
-    grid-column: 1 / span 2;
-    grid-row: 2 / 2;
-  }
-
-  &__tag-5 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-  }
-
-  &__tag-6 {
-    align-self: flex-start;
-  }
-
   //////////////////////////////////////
   ///////////////CARD 3/////////////////
   &__card-3 {

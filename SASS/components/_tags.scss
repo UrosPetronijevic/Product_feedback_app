@@ -5,9 +5,14 @@
   background-color: rgba($color-secondary, 0.05);
   border-radius: 0.7rem;
   color: $color-secondary;
+  display: inline-block;
 
   &:hover {
     background-color: $color-secondary;
     color: $color-white;
+  }
+
+  &-6 {
+    align-self: flex-start;
   }
 }
