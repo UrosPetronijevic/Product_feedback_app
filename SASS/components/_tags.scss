@@ -1,18 +1,22 @@
 .tag {
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  font-size: 1rem;
-  background-color: rgba($color-secondary, 0.05);
-  border-radius: 0.7rem;
-  color: $color-secondary;
-  display: inline-block;
+  &:link,
+  &:visited {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: rgba($color-secondary, 0.05);
+    border-radius: 0.7rem;
+    color: $color-secondary;
+    display: inline-block;
+  }
 
-  &:hover {
+  &:hover,
+  &:active {
     background-color: $color-secondary;
     color: $color-white;
   }
 
-  &-6 {
+  &--6 {
     align-self: flex-start;
   }
 }
