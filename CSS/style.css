@@ -149,7 +149,7 @@ body {
     .navigation {
       grid-row: 1 / 2;
       flex-direction: row;
-      gap: 1rem; } }
+      gap: 0.5rem; } }
   .navigation__card-1 {
     background-image: linear-gradient(to right bottom, #7efff5, #7158e2, #cd84f1);
     justify-content: flex-end;
@@ -238,7 +238,7 @@ body {
       margin: 5rem auto; } }
   @media only screen and (max-width: 900px) {
     .container {
-      width: 100vw;
+      width: 95vw;
       margin: 0 auto;
       padding: 1rem;
       display: flex;
@@ -254,11 +254,6 @@ body {
   align-items: center;
   gap: 1rem;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
-  @media only screen and (max-width: 900px) {
-    .header {
-      flex-direction: row;
-      grid-row: 2 / 3;
-      width: 100%; } }
   @media only screen and (max-width: 420px) {
     .header {
       gap: 0.5rem; } }
