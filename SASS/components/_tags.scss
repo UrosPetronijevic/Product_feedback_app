@@ -16,7 +16,15 @@
     color: $color-white;
   }
 
-  &--6 {
+  &--align-start {
     align-self: flex-start;
+  }
+
+  &--active {
+    &:link,
+    &:visited {
+      background-color: $color-secondary;
+      color: $color-white;
+    }
   }
 }
